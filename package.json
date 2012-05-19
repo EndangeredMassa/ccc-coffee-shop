@@ -1,0 +1,17 @@
+{
+  "name": "chat-server",
+  "version": "0.0.1",
+  "dependencies": {
+    "coffee-script": "",
+    "express": "",
+    "jasmine-node": "",
+    "jessie": "",
+    "jade": "",
+    "socket.io": "",
+    "zombie": ""
+  },
+  "scripts": {
+    "start": "foreman start",
+    "test": "watchr script/spec_app.watchr"
+  }
+}

@@ -1,0 +1,43 @@
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+}
+
+#command {
+  height: 30px;
+  border: 1px solid black;
+  width: 100%;
+  font-size: 18px;
+  position:fixed;
+  bottom: 0;
+}
+
+#spacer {
+  height: 36px;
+}
+
+#users {
+  float: right;
+  border: 1px solid black;
+  width: 200px;
+  min-height: 600px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.message {
+  padding-left: 10px;
+}
+
