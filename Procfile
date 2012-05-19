@@ -1,3 +1,3 @@
-coffee:  ./node_modules/coffee-script/bin/coffee -wc -o server/public/js/ client/
+coffee:  ./script/watch_client_coffee.sh
 server:  ./node_modules/coffee-script/bin/coffee server
 

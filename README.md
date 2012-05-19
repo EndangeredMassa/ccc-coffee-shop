@@ -1,24 +1,22 @@
 Coffee Shop
 ===
 
-A chat server written in CoffeeScript with a focus on TDD over simple domain objects. The actual server was added later.
+A chat server written in CoffeeScript with a focus on TDD over simple domain objects.
 
 Getting Started
 ==
-1. Install node.js 0.6.13 http://nodejs.org/
-1. `git clone git@github.com:EndangeredMassa/coffee-shop.git`
-1. `cd coffee-shop && npm install`
-1. `gem install watchr`
-1. `gem install foreman`
+1. Install node.js 0.6.18 http://nodejs.org/
+1. fork the repo: https://github.com/EndangeredMassa/ccc-coffee-shop
+1. clone your forked repo
+1. `cd ccc-coffee-shop && npm install`
+1. (optional) `bundle install`
 1. `npm test` # make sure it all passes
-1. `ctrl+c`
 1. `npm start` # run the server
 1. visit `localhost:1337` in your browser
 
 Testing
 ==
 1. `npm test`
-
 
 Structure
 ===
